@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Conversor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="style.css">
+
+   
+    
+
+</head>
+
+<body>
+    <div>
+        <div id="head">
+            <h1>MS1 - Conversor de moedas</h1>
+        </div>
+
+        <div id="master-box">
+            <p class="paragraph">Converter <b>De</b></p>
+            <select class="select">
+                <option>R$ Real Brasileiro</option>
+            </select>
+
+            <p class="paragraph" S>Converter <b>Para</b></p>
+            <select class="select" id="select">
+                <option>US$ Dolar</option>
+                <option>Є Euro</option>
+            </select>
+            <p class="paragraph"><b></b>Valor</b></p>
+            <input id="input" placeholder="R$ 0,00" type="number">
+
+            <button id="button">Converter</button>
+
+            <div id="container">
+                <div class="conteiner2">
+                    <img src="./imege/bandBrasil.jpg" alt="imagem">
+                    <p class="paragraph">R$ Real Brasileiro</p>
+                    <p class="values" id="valorDigitado">R$ 0,00</p>
+                </div>
+
+                <img id="seta" src="./imege/seta.jpg" alt="imagem">
+
+
+                <div class="conteiner2">
+                    <img id="moedaBandeira" src="./imege/bandEstadosUnidos.jpg" alt="imagem">
+                    <p class="paragraph" id="textoMoeda">R$ Dolar</p>
+                    <p class="values" id="resulado-conversao">R$ 0,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./converter.js"></script>
+
+
+</body>
+
+</html>
